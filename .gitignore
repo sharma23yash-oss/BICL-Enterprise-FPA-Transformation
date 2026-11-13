@@ -1,0 +1,20 @@
+# OS and editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+# Office temp and lock files
+~$*
+.~lock.*
+*.tmp
+# Working and test copies (keep out of the repository)
+*_test.*
+*_copy.*
+scratch/
+working/
+tmp/
+# Secrets (never commit)
+.env
+*.key
+*.pem
+credentials*
